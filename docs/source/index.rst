@@ -1,10 +1,12 @@
-Welcome to Lumache's documentation!
+Welcome to Django Chili (django-chili)!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**Django Chili** is a Django extension that enables the use of static HTML files as Django
+templates. It's designed for scenarios where UI designs are created using
+tools like Figma/Anima or Bootstrap Studio and need to be integrated into Django projects.
+The extension adds tags to Django that can load static HTML files and uses CSS selectors
+to transform and decorate them into Django templates. This allows developers to work on the
+Django logic separately, without altering the original HTML that designers are producing.
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
@@ -19,4 +21,3 @@ Contents
 .. toctree::
 
    usage
-   api
