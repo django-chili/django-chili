@@ -1,9 +1,11 @@
-Template for the Read the Docs tutorial
-=======================================
+.. |bowl| image:: docs/source/django-chili.png
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+===================================
+|bowl| Welcome to Django Chili!
+===================================
 
-Read the tutorial here:
+.. include:: docs/source/overview.rst
 
-https://docs.readthedocs.io/en/stable/tutorial/
+
+Documentation
+  https://docs.django-chili.io/en/latest/
