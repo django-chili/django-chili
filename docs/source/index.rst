@@ -1,5 +1,8 @@
-Welcome to Django Chili (django-chili)!
+.. |bowl| image:: django-chili.png
+
+|bowl| Welcome to Django Chili!
 ===================================
+
 
 **Django Chili** is a Django extension that enables the use of static HTML files as Django
 templates. It's designed for scenarios where UI designs are created using
