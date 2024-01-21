@@ -1,15 +1,13 @@
-# Configuration file for the Sphinx documentation builder.
-
-# -- Project information
+from pathlib import Path
 
 project = 'Django Chili'
 copyright = "2024, Sean O'Dell"
 author = 'seanodell'
 
-release = '0.1'
-version = '0.1.0'
+v = (Path(__file__).parent / '../../VERSION').resolve().read_text().split('.')
 
-# -- General configuration
+release = f"{v[0]}.{v[1]}"
+version = f"{v[0]}.{v[1]}.{v[2]}"
 
 extensions = [
     'sphinx.ext.duration',
@@ -27,9 +25,6 @@ intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
 
-# -- Options for HTML output
-
 html_theme = 'sphinx_rtd_theme'
 
-# -- Options for EPUB output
 epub_show_urls = 'footnote'
