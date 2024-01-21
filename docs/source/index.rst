@@ -3,7 +3,9 @@
 |bowl| Welcome to Django Chili!
 ===================================
 
-.. include:: overview.rst
+.. include:: ../../README.rst
+   :start-after: overview_start
+   :end-before: overview_end
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
