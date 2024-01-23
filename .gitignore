@@ -4,3 +4,4 @@ build
 generated
 *.egg-info
 dist
+.env
