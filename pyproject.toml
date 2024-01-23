@@ -4,7 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "django-chili"
-description = "A short description of your project"
+description = "Using static HTML files as templates with Django projects."
+
 readme = "README.rst"
 authors = [{name = "Sean O'Dell", email = "sean@celsoft.com"}]
 classifiers = [
@@ -22,3 +23,7 @@ packages = ["django_chili"]
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}
 version = {file = ["VERSION"]}
+
+[project.urls]
+Documentation = "https://docs.django-chili.io/"
+Source = "https://github.com/django-chili/django-chili"
