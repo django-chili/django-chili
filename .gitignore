@@ -2,3 +2,5 @@
 others
 build
 generated
+*.egg-info
+dist
