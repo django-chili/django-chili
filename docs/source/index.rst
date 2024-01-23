@@ -8,7 +8,7 @@
    :end-before: overview_end
 
 Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+how to install the project.
 
 .. note::
 
@@ -19,4 +19,6 @@ Contents
 
 .. toctree::
 
-   usage
+    usage
+    reference
+    faq

@@ -1,7 +1,8 @@
+import sys
 from pathlib import Path
 
 project = 'Django Chili'
-copyright = "2024, Sean O'Dell"
+project_copyright = "2024, Sean O'Dell"
 author = 'seanodell'
 
 v = (Path(__file__).parent / '../../VERSION').resolve().read_text().split('.')
@@ -28,3 +29,5 @@ templates_path = ['_templates']
 html_theme = 'sphinx_rtd_theme'
 
 epub_show_urls = 'footnote'
+
+sys.path.insert(0, str((Path(__file__).parent / '../..').resolve()))
